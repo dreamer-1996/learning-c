@@ -1,0 +1,15 @@
+														   launch
+														      | 
+				  ---------------------------------------------------------------------------------------
+				  |																						|
+			   launch.o 																		    thruster.o
+			   	  |																						|
+	----------------------------------------------------------		 ------------------------------------------
+	|						|							  	 |		|										  |
+  launch.c				launch.h							thruster.h									thruster.c
+  
+  
+ 1. Our final target file = launch.
+ 2. launch file is an executable file. It depends on launch.o and thruster.o object file.
+ 3. launch.o depends on launch.c,launch.h and thruster.h files.
+ 4. thruster.o depends on thruster.h and thruster.c files.
